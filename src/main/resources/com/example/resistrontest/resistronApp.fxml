@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.stage.Stage?>
+
+<Stage title="Resistron Program" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.resistrontest.resistronController">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="430.0" prefWidth="870.0">
+            <children>
+               <Text layoutX="15.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Color n°1 :">
+                  <font>
+                     <Font name="Berlin Sans FB" size="17.0" />
+                  </font>
+               </Text>
+               <Text layoutX="15.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Color n°2 :">
+                  <font>
+                     <Font name="Berlin Sans FB" size="17.0" />
+                  </font>
+               </Text>
+               <Text layoutX="15.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Color n°4 :">
+                  <font>
+                     <Font name="Berlin Sans FB" size="17.0" />
+                  </font>
+               </Text>
+               <Text layoutX="15.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Color n°3 :">
+                  <font>
+                     <Font name="Berlin Sans FB" size="17.0" />
+                  </font>
+               </Text>
+               <Button fx:id="buttonblack1" layoutX="99.0" layoutY="198.0" mnemonicParsing="false" onAction="#onbuttonblack1Action" style="-fx-background-color: Black;" text="Black" textFill="WHITE" />
+               <Button fx:id="buttonbrown1" layoutX="150.0" layoutY="198.0" mnemonicParsing="false" onAction="#onbuttonbrown1Action" style="-fx-background-color: brown;" text="Brown" textFill="WHITE" />
+               <Button fx:id="buttonwhite1" layoutX="569.0" layoutY="198.0" mnemonicParsing="false" onAction="#onbuttonwhite1Action" style="-fx-background-color: white;" text="White" />
+               <Button fx:id="buttongrey1" layoutX="522.0" layoutY="198.0" mnemonicParsing="false" onAction="#onbuttongrey1Action" style="-fx-background-color: grey;" text="Grey" textFill="WHITE" />
+               <Button fx:id="buttonpurple1" layoutX="466.0" layoutY="198.0" mnemonicParsing="false" onAction="#onbuttonpurple1Action" style="-fx-background-color: purple;" text="Purple" textFill="WHITE" />
+               <Button fx:id="buttonred1" layoutX="207.0" layoutY="198.0" mnemonicParsing="false" onAction="#onbuttonred1Action" style="-fx-background-color: red;" text="Red" textFill="WHITE" />
+               <Button fx:id="buttonyellow1" layoutX="311.0" layoutY="198.0" mnemonicParsing="false" onAction="#onbuttonyellow1Action" style="-fx-background-color: yellow;" text="Yellow" />
+               <Button fx:id="buttonorange1" layoutX="250.0" layoutY="198.0" mnemonicParsing="false" onAction="#onbuttonorange1Action" style="-fx-background-color: orange;" text="Orange" textFill="WHITE" />
+               <Button fx:id="buttongreen1" layoutX="368.0" layoutY="198.0" mnemonicParsing="false" onAction="#onbuttongreen1Action" style="-fx-background-color: green;" text="Green" textFill="WHITE" />
+               <Button fx:id="buttonblue1" layoutX="422.0" layoutY="198.0" mnemonicParsing="false" onAction="#onbuttonblue1Action" style="-fx-background-color: blue;" text="Blue" textFill="WHITE" />
+               <Button fx:id="buttonblack2" layoutX="99.0" layoutY="231.0" mnemonicParsing="false" onAction="#onbuttonblack2Action" style="-fx-background-color: Black;" text="Black" textFill="WHITE" />
+               <Button fx:id="buttonbrown2" layoutX="150.0" layoutY="231.0" mnemonicParsing="false" onAction="#onbuttonbrown2Action" style="-fx-background-color: brown;" text="Brown" textFill="WHITE" />
+               <Button fx:id="buttonwhite2" layoutX="569.0" layoutY="231.0" mnemonicParsing="false" onAction="#onbuttonwhite2Action" style="-fx-background-color: white;" text="White" />
+               <Button fx:id="buttongrey2" layoutX="522.0" layoutY="231.0" mnemonicParsing="false" onAction="#onbuttongrey2Action" style="-fx-background-color: grey;" text="Grey" textFill="WHITE" />
+               <Button fx:id="buttonpurple2" layoutX="466.0" layoutY="231.0" mnemonicParsing="false" onAction="#onbuttonpurple2Action" style="-fx-background-color: purple;" text="Purple" textFill="WHITE" />
+               <Button fx:id="buttonred2" layoutX="207.0" layoutY="231.0" mnemonicParsing="false" onAction="#onbuttonred2Action" style="-fx-background-color: red;" text="Red" textFill="WHITE" />
+               <Button fx:id="buttonyellow2" layoutX="311.0" layoutY="231.0" mnemonicParsing="false" onAction="#onbuttonyellow2Action" style="-fx-background-color: yellow;" text="Yellow" />
+               <Button fx:id="buttonorange2" layoutX="250.0" layoutY="231.0" mnemonicParsing="false" onAction="#onbuttonorange2Action" style="-fx-background-color: orange;" text="Orange" textFill="WHITE" />
+               <Button fx:id="buttongreen2" layoutX="368.0" layoutY="231.0" mnemonicParsing="false" onAction="#onbuttongreen2Action" style="-fx-background-color: green;" text="Green" textFill="WHITE" />
+               <Button fx:id="buttonblue2" layoutX="422.0" layoutY="231.0" mnemonicParsing="false" onAction="#onbuttonblue2Action" style="-fx-background-color: blue;" text="Blue" textFill="WHITE" />
+               <Button fx:id="mbuttonblack" layoutX="99.0" layoutY="265.0" mnemonicParsing="false" onAction="#monbuttonblackAction" style="-fx-background-color: Black;" text="Black" textFill="WHITE" />
+               <Button fx:id="mbuttonbrown" layoutX="150.0" layoutY="265.0" mnemonicParsing="false" onAction="#monbuttonbrownAction" style="-fx-background-color: brown;" text="Brown" textFill="WHITE" />
+               <Button fx:id="mbuttonwhite" layoutX="569.0" layoutY="265.0" mnemonicParsing="false" onAction="#monbuttonwhiteAction" style="-fx-background-color: white;" text="White" />
+               <Button fx:id="mbuttongrey" layoutX="522.0" layoutY="265.0" mnemonicParsing="false" onAction="#monbuttongreyAction" style="-fx-background-color: grey;" text="Grey" textFill="WHITE" />
+               <Button fx:id="mbuttonpurple" layoutX="466.0" layoutY="265.0" mnemonicParsing="false" onAction="#monbuttonpurpleAction" style="-fx-background-color: purple;" text="Purple" textFill="WHITE" />
+               <Button fx:id="mbuttonred" layoutX="207.0" layoutY="265.0" mnemonicParsing="false" onAction="#monbuttonredAction" style="-fx-background-color: red;" text="Red" textFill="WHITE" />
+               <Button fx:id="mbuttonyellow" layoutX="311.0" layoutY="265.0" mnemonicParsing="false" onAction="#monbuttonyellowAction" style="-fx-background-color: yellow;" text="Yellow" />
+               <Button fx:id="mbuttonorange" layoutX="250.0" layoutY="265.0" mnemonicParsing="false" onAction="#monbuttonorangeAction" style="-fx-background-color: orange;" text="Orange" textFill="WHITE" />
+               <Button fx:id="mbuttonsilver" layoutX="671.0" layoutY="265.0" mnemonicParsing="false" onAction="#monbuttonsilverAction" style="-fx-background-color: silver;" text="Silver" />
+               <Button fx:id="mbuttongreen" layoutX="368.0" layoutY="265.0" mnemonicParsing="false" onAction="#monbuttongreenAction" style="-fx-background-color: green;" text="Green" textFill="WHITE" />
+               <Button fx:id="mbuttonblue" layoutX="422.0" layoutY="265.0" mnemonicParsing="false" onAction="#monbuttonblueAction" style="-fx-background-color: blue;" text="Blue" textFill="WHITE" />
+               <Button fx:id="mbuttongold" layoutX="623.0" layoutY="265.0" mnemonicParsing="false" onAction="#monbuttongoldAction" style="-fx-background-color: gold;" text="Gold" textFill="WHITE" />
+               <Button fx:id="tbuttonbrown" layoutX="150.0" layoutY="302.0" mnemonicParsing="false" onAction="#tonbuttonbrownAction" style="-fx-background-color: brown;" text="Brown" textFill="WHITE" />
+               <Button fx:id="tbuttongrey" layoutX="522.0" layoutY="302.0" mnemonicParsing="false" onAction="#tonbuttongreyAction" style="-fx-background-color: grey;" text="Grey" textFill="WHITE" />
+               <Button fx:id="tbuttonpurple" layoutX="466.0" layoutY="302.0" mnemonicParsing="false" onAction="#tonbuttonpurpleAction" style="-fx-background-color: purple;" text="Purple" textFill="WHITE" />
+               <Button fx:id="tbuttonred" layoutX="207.0" layoutY="302.0" mnemonicParsing="false" onAction="#tonbuttonredAction" style="-fx-background-color: red;" text="Red" textFill="WHITE" />
+               <Button fx:id="tbuttonsilver" layoutX="671.0" layoutY="302.0" mnemonicParsing="false" onAction="#tonbuttonsilverAction" style="-fx-background-color: silver;" text="Silver" />
+               <Button fx:id="tbuttongreen" layoutX="368.0" layoutY="302.0" mnemonicParsing="false" onAction="#tonbuttongreenAction" style="-fx-background-color: green;" text="Green" textFill="WHITE" />
+               <Button fx:id="tbuttonblue" layoutX="422.0" layoutY="302.0" mnemonicParsing="false" onAction="#tonbuttonblueAction" style="-fx-background-color: blue;" text="Blue" textFill="WHITE" />
+               <Button fx:id="tbuttongold" layoutX="623.0" layoutY="302.0" mnemonicParsing="false" onAction="#tonbuttongoldAction" style="-fx-background-color: gold;" text="Gold" textFill="WHITE" />
+               <Text layoutX="20.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="9.0">
+                  <font>
+                     <Font size="29.0" />
+                  </font>
+               </Text>
+               <Text layoutX="14.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Indicate the colors present on your resistor below, starting whit the leftmost :">
+                  <font>
+                     <Font name="Berlin Sans FB" size="19.0" />
+                  </font>
+               </Text>
+               <Text layoutX="16.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Resistron">
+                  <font>
+                     <Font name="Berlin Sans FB" size="41.0" />
+                  </font>
+               </Text>
+               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a2aeb9" height="43.0" layoutX="278.0" layoutY="79.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+               <Label fx:id="band1" layoutX="297.0" layoutY="76.0" prefHeight="49.0" prefWidth="18.0" style="-fx-background-color: Grey; -fx-border-color: Black;" />
+               <Label fx:id="unite" layoutX="508.0" layoutY="360.0" prefHeight="46.0" prefWidth="69.0" style="-fx-background-color: white;">
+                  <effect>
+                     <InnerShadow height="11.48" radius="5.4225" width="12.21">
+                        <color>
+                           <Color red="0.8026315569877625" green="0.7766203880310059" blue="0.7766203880310059" />
+                        </color></InnerShadow>
+                  </effect>
+                  <font>
+                     <Font size="22.0" />
+                  </font>
+               </Label>
+               <Label fx:id="band2" layoutX="328.0" layoutY="76.0" prefHeight="49.0" prefWidth="18.0" style="-fx-background-color: Grey; -fx-border-color: Black;" />
+               <Label fx:id="band3" layoutX="360.0" layoutY="76.0" prefHeight="49.0" prefWidth="18.0" style="-fx-background-color: Grey; -fx-border-color: Black;" />
+               <Label fx:id="band4" layoutX="392.0" layoutY="76.0" prefHeight="49.0" prefWidth="18.0" style="-fx-background-color: Grey; -fx-border-color: Black;" />
+               <Text fx:id="tolerance" layoutX="733.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tolerance">
+                  <font>
+                     <Font name="Berlin Sans FB" size="17.0" />
+                  </font>
+               </Text>
+               <Text fx:id="multiplier" layoutX="734.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Multiplier">
+                  <font>
+                     <Font name="Berlin Sans FB" size="17.0" />
+                  </font>
+               </Text>
+               <Text fx:id="value2" layoutX="734.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Value of the color">
+                  <font>
+                     <Font name="Berlin Sans FB" size="17.0" />
+                  </font>
+               </Text>
+               <Text fx:id="value1" layoutX="734.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Value of the color">
+                  <font>
+                     <Font name="Berlin Sans FB" size="17.0" />
+                  </font>
+               </Text>
+               <TextField fx:id="result" layoutX="263.0" layoutY="360.0" prefHeight="46.0" prefWidth="245.0" text=" Result :">
+                  <font>
+                     <Font size="22.0" />
+                  </font>
+               </TextField>
+               <Label fx:id="tol" layoutX="575.0" layoutY="360.0" prefHeight="46.0" prefWidth="97.0" style="-fx-background-color: white;">
+                  <effect>
+                     <InnerShadow height="11.48" radius="5.4225" width="12.21">
+                        <color>
+                           <Color red="0.8026315569877625" green="0.7766203880310059" blue="0.7766203880310059" />
+                        </color>
+                     </InnerShadow>
+                  </effect>
+                  <font>
+                     <Font size="22.0" />
+                  </font>
+               </Label>
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>
