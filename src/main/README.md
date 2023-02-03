@@ -1,6 +1,5 @@
-
-# **Projet Resistron**  
-<a href="https://zupimages.net/viewer.php?id=23/05/l0x1.png"><img src="https://zupimages.net/up/23/05/l0x1.png" alt="" /></a>
+#resitron
+**Projet Resistron**
 
  1. ***Description du projet :***
 Ce programme ce programme a pour but de calculer la valeur d'une résistance a 4 couleurs, pour ensuite que celui-ci affiche la valeur, l'unité ainsi que la tolérance de celle-ci.

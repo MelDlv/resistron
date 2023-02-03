@@ -7,10 +7,12 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.Background;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
-
 import java.math.BigDecimal;
 
-
+/**
+ * @author : Ann, Pierre, Mélanie
+ * date : 03/02/2023
+ */
 public class resistronController
 {
     //////////////////Button Line 1//////////////////
